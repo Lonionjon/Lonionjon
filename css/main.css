@@ -1,6 +1,6 @@
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: rgb(41, 35, 35);
+    background-color:  #131413;
 }
 
 nav {
@@ -17,11 +17,12 @@ nav p {
 }
 
 footer {
-    background-color: rgb(210, 105, 105);
+    background-color:  #131413;
     margin-top: auto;
 }
 
 footer p {
+    color: #fff;
     text-align: center;
     padding: 20px;
 }
