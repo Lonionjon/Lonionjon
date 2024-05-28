@@ -28,7 +28,9 @@ footer p {
 }
 
 .main-portfolio-text {
-    background-color: rgb(156, 68, 68);
-    padding: 20px 10px;
+    background-color: rgba(156, 68, 68, 70%);
+    padding: 20px 30px;
     line-height: 24px;
+    -webkit-box-shadow: 2px 14px 18px 9px #FF8D8D; 
+    box-shadow: 2px 14px 18px 9px #FF8D8D;
 }
