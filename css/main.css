@@ -7,13 +7,21 @@ nav {
     display: flex;
     padding: 10px;
     justify-content: right;
-    background-color: rgb(82, 196, 90);
+    background-color: #49714B;
 }
 
 nav p {
     padding: 10px 20px;
     font-size: 30px;
     font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: #F26648;
+}
+a:hover {
+    color: #fff;
 }
 
 footer {
@@ -28,7 +36,7 @@ footer p {
 }
 
 .main-portfolio-text {
-    background-color: rgba(156, 68, 68, 70%);
+    background-color: #F26648;
     padding: 20px 30px;
     line-height: 24px;
     -webkit-box-shadow: 2px 14px 18px 9px #FF8D8D; 
