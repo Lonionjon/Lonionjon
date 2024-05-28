@@ -26,3 +26,9 @@ footer p {
     text-align: center;
     padding: 20px;
 }
+
+.main-portfolio-text {
+    background-color: rgb(156, 68, 68);
+    padding: 20px 10px;
+    line-height: 24px;
+}
