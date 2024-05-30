@@ -7,6 +7,19 @@ h2 {
     padding: 30px;
 }
 
+p {
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+
 .contact-link {
     text-decoration: underline dotted 5px;
+}
+
+.contact-container-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
