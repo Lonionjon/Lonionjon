@@ -18,8 +18,34 @@ p {
     text-decoration: underline dotted 5px;
 }
 
+.contact-main-container {
+    background-color: #49714B;
+    padding: 2%;
+    margin: 40px;
+    border-radius: 20px;
+    overflow-x: hidden;
+}
+
 .contact-container-2 {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socials img {
+    margin: 30px;
+}
+
+.social-icon {
+    width: 100px;
+}
+
+@media screen and (max-width: 400px) {
+    #contact-main-container {overflow-x: scroll;}
 }
