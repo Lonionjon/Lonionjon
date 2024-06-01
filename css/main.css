@@ -7,7 +7,7 @@ nav {
     display: flex;
     padding: 10px;
     justify-content: right;
-    background-color: #49714B;
+    background-color: #334140;
 }
 
 nav p {
@@ -18,8 +18,9 @@ nav p {
 
 a {
     text-decoration: none;
-    color: #F26648;
+    color: #FF7555;
 }
+
 a:hover {
     color: #fff;
 }
