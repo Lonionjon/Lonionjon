@@ -21,9 +21,9 @@ p {
 .contact-main-container {
     background-color: #334140;
     padding: 2%;
-    margin: 40px;
+    margin: 4%;
     border-radius: 20px;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .contact-container-2 {
@@ -46,6 +46,19 @@ p {
     width: 100px;
 }
 
-@media screen and (max-width: 400px) {
-    #contact-main-container {overflow-x: scroll;}
+@media screen and (max-width: 500px) {
+    .contact-main-container {overflow-x: scroll;}
+    .socials img {width: 50px;
+                margin: 20px;}
+
+    nav {
+        overflow-x: scroll;
+    }
+    
+    nav p {
+        font-size: 16px;
+        margin: 0px;
+        padding: 10px;
+    }
+    
 }

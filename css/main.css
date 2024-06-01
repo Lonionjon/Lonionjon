@@ -6,7 +6,7 @@ body {
 nav {
     display: flex;
     padding: 10px;
-    justify-content: right;
+    justify-content: center;
     background-color: #334140;
 }
 
