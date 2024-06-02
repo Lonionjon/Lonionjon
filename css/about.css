@@ -10,7 +10,9 @@
 
 .about-whole-container {
     display: flex;
-    width: 90vw;
+    width: 95vw;
+    align-items: center;
+    justify-self: center;
 }
 
 .about-main-container p {
@@ -18,6 +20,7 @@
     display: flex;
     align-items: center;
     justify-self: center;
+    margin: auto;
 }
 
 .about-link {
@@ -25,11 +28,26 @@
 }
 
 img {
+    border-radius: 20px;
     display: flex;
     width: 30vw;
-    padding-top: 20px;
-    margin: 5%;
+    padding: 10px;
     align-items: center;
     justify-self: center;
+}
 
+@media screen and (max-width: 600px) {
+    .about-img, img {
+        display: block;
+        width: 70vw;
+        justify-self: center;
+    }
+
+    .about-img {
+        margin: auto;
+    }
+
+    .about-whole-container {
+        display: block;
+    }
 }

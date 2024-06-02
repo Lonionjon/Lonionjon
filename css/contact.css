@@ -48,6 +48,7 @@ p {
 
 @media screen and (max-width: 500px) {
     .contact-main-container {overflow-x: scroll;}
+    
     .socials img {width: 50px;
                 margin: 20px;}
 
