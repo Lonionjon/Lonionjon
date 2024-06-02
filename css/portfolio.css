@@ -61,6 +61,7 @@ img {
 
     .port-img {
         width: 400px;
+        justify-self: center;
     }
     
 }
