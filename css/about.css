@@ -1,1 +1,35 @@
 /* yea */
+
+.about-main-container {
+    background-color: #334140;
+    padding: 2%;
+    margin: 4%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.about-whole-container {
+    display: flex;
+    width: 90vw;
+}
+
+.about-main-container p {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+.about-link {
+    text-decoration: underline dotted 5px;
+}
+
+img {
+    display: flex;
+    width: 30vw;
+    padding-top: 20px;
+    margin: 5%;
+    align-items: center;
+    justify-self: center;
+
+}
