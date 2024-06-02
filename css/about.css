@@ -45,6 +45,7 @@ img {
 
     .about-img {
         margin: auto;
+        justify-content: center;
     }
 
     .about-whole-container {
