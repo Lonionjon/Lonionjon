@@ -41,5 +41,25 @@
         width: 800px;
         height: 50vh;
     }
+
+    .port-img-3 {
+        width: 700px;
+        height: 40vh;
+    }
+    
+    .port-img-4 {
+        width: 900px;
+        height: 40vh;
+    }
+    
+    .port-img-5 {
+        width: 800px;
+        height: 500px;
+    }
+    
+    .port-img-6 {
+        width: 1200px;
+    }
+
     
 }
