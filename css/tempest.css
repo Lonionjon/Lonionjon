@@ -1,27 +1,27 @@
 .port-img-1 {
     margin-top: 40px;
-    width: 500px;
+    min-width: 500px;
 }
 
 .port-img-2 {
     margin-top: 40px;
-    width: 500px;
+    min-width: 500px;
 }
 
 .port-img-3 {
-    width: 450px;
+    min-width: 450px;
 }
 
 .port-img-4 {
-    width: 550px;
+    min-width: 550px;
 }
 
 .port-img-5 {
-    width: 400px;
+    min-width: 400px;
 }
 
 .port-img-6 {
-    width: 600px;
+    min-width: 600px;
 }
 
 @media screen and (min-width: 1600px) {
