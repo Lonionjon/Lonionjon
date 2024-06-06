@@ -56,13 +56,12 @@ img {
     justify-self: center;
 }
 
-
-
 @media screen and (max-width: 600px) {
     .portfolio-images {
         display: block;
-        align-self: center;
         overflow-x: scroll;
+        align-items: center;
+        justify-items: center;
     }
 
     .port-nav {
