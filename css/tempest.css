@@ -29,7 +29,7 @@
     width: 600px;
 }
 
-@media screen and (min-width: 2200px) {
+@media screen and (min-width: 2000px) {
     .port-img-1 {
         margin-top: 40px;
         width: 1000;
