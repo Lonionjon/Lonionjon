@@ -45,6 +45,11 @@ img {
     border: 5px dotted #334140;
 }
 
+.fucking-fix-it {
+    justify-content: center;
+    align-content: center;
+}
+
 .portfolio-images {
     display: flex;
     min-width: 100vw;
