@@ -2,7 +2,21 @@
     text-decoration: underline dotted 5px;
 }
 
+.port-nav {
+    background-color: #75605c;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.port-nav p {
+    font-size: 16px;
+}
+
 .main-portfolio-text {
+    width: 100vw;
     background-color: #F26648;
     padding: 20px 50px;
     line-height: 24px;
@@ -17,51 +31,32 @@ img {
 
 .portfolio-images {
     display: flex;
-    width: 100vw;
-    margin: 50px;
+    max-width: 100vw;
+    margin: 20px 40px;
     align-self: center;
 }
 
-.port-img-1 {
-    margin-top: 40px;
-    width: 500px;
-    height: 50vh;
+.port-img {
+    justify-self: center;
 }
 
-.port-img-2 {
-    margin-top: 40px;
-    width: 500px;
-    height: 50vh;
-}
 
-.port-img-3 {
-    width: 450px;
-    height: 40vh;
-}
-
-.port-img-4 {
-    width: 550px;
-    height: 40vh;
-}
-
-.port-img-5 {
-    width: 400px;
-    height: 500px;
-}
-
-.port-img-6 {
-    width: 600px;
-}
 
 @media screen and (max-width: 600px) {
     .portfolio-images {
         display: block;
         align-self: center;
+        overflow-x: scroll;
     }
 
-    .port-img {
-        width: 400px;
-        justify-self: center;
+    .port-nav {
+        height: 40px;
+    }
+
+    .port-nav p {
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
     }
     
 }
