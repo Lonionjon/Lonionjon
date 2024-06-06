@@ -29,16 +29,16 @@
     width: 600px;
 }
 
-@media screen and (min-width: 2000px) {
+@media screen and (min-width: 1600px) {
     .port-img-1 {
         margin-top: 40px;
-        width: 1000;
+        width: 800;
         height: 50vh;
     }
 
     .port-img-2 {
         margin-top: 40px;
-        width: 1000px;
+        width: 800px;
         height: 50vh;
     }
     
