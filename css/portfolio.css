@@ -15,6 +15,15 @@
     font-size: 16px;
 }
 
+.port-nav a {
+    color: #fff;
+    text-decoration: underline dotted 1.5px;
+}
+
+.port-nav a:hover {
+    color: #F26648;
+}
+
 .main-portfolio-text {
     width: 100vw;
     background-color: #F26648;
