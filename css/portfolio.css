@@ -1,3 +1,7 @@
+html {
+    width: 100%;
+}
+
 .port-link {
     text-decoration: underline dotted 5px;
 }
@@ -25,9 +29,10 @@
 }
 
 .main-portfolio-text {
-    width: 100vw;
+    width: inherit;
     background-color: #F26648;
     padding: 20px 50px;
+    margin-bottom: 50px;
     line-height: 24px;
     -webkit-box-shadow: 2px 14px 18px 9px #F26648;
     box-shadow: 2px 14px 18px 9px #F26648;
@@ -41,24 +46,27 @@ h2 {
 }
 
 img {
+    width: 400px;
     margin: 10px;
     border: 5px dotted #334140;
 }
 
-.fucking-fix-it {
-    justify-content: center;
-    align-content: center;
+.port-full-div {
+    display: block;
+    min-width: 100%;
 }
 
 .portfolio-images {
-    display: flex;
-    min-width: 100vw;
-    margin: 20px 40px;
-    justify-self: center;
+    min-width: 90vw;
+    margin: auto;
+    justify-content: center;
 }
 
 .port-img {
-    justify-self: center;
+    min-width: 70vw;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
 }
 
 @media screen and (max-width: 600px) {
